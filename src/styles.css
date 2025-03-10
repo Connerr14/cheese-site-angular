@@ -3,4 +3,20 @@
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 
 
+fieldset {
+    margin: 5px;
+}
 
+label {
+    width: 120px;
+}
+
+.list-group-item-heading {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.list-group-item-heading:hover {
+    color: darkblue;
+}
